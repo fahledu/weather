@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
     const key = ""; // Informar a chave de acesso
-    const woeidCode = 459678; //Para consular pelo codigo da cidade, para encontrar o código correspondente a cidade usar https://console.hgbrasil.com/documentation/weather/tools
-    const city = "salvador"; // Para consultar por cidade
+    const woeidCode = ""; //Para consular pelo codigo da cidade, para encontrar o código correspondente a cidade usar https://console.hgbrasil.com/documentation/weather/tools
+    const city = ""; // Para consultar por cidade
     const getUserCityType = ["woeid=" + woeidCode, "city_name=" + city, "user_ip=remote"];
     const option = 1; // OPÇÃO: 0 para código woeid, 1 para cidade, 2 para IP do usuário
 
