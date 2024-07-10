@@ -69,7 +69,7 @@ Para utilizar as imagens correspondente ao clima, basta utilizar a tag IMG com a
 |hoje|Nebulosidade|cloudiness|Texto|nebulosidade em percentual, de 0 a 100| 60%|
 |hoje|Chuva|rain|Texto|volume de chuva em mm na última hora| 3.48%
 |hoje|Velocidade do vendo|wind_speedy|Texto|velocidade do vento em km/h|6.31 km/h
-|hoje|Direção do vento|wind_direction|Texto|direção do vento em grau| 102
+|hoje|Direção do vento|wind_direction|Texto|direção do vento em grau| 102°
 |hoje|Ponto cardeal|wind_cardinal|Texto|direção do vento em ponto cardeal| SE
 |hoje|Nascer do Sol|sunrise|Texto|nascer do Sol em horário local da cidade| 05:57 am
 |hoje|Pôr do Sol |sunset|Texto|pôr do Sol em horário local da cidade| 05:21 pm
