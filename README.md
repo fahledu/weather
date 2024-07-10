@@ -21,16 +21,16 @@
 
 - Para que o script funcione são necessárias algumas configurações simples que estão comentadas no código
 
- - 1º -> Infomar a chave de acesso que foi gerada no [hgbrasil](https://hgbrasil.com/) em ```const key = "";``` ex ```const key = "123456abc";```
+ - 1º -> Informar a chave de acesso que foi gerada no [hgbrasil](https://hgbrasil.com/) em ```const key = "";``` ex ```const key = "123456abc";```
 
  - 2º -> Existem 3 formas para pegar a localização do usuário, woeid, cidade, e IP.
 
-  - WOEID -> Informar em ```const woeidCode = ;``` ex ```const woeidCode = 459678;``` para consular pelo codigo da cidade, para encontrar o código correspondente a cidade usar [hgbrasil tools](https://console.hgbrasil.com/documentation/weather/tools), essa é a opção mais recomendada, pois evita problemas com grafia na hora de escrever o nome da cidade, ou com uso de proxy/vpn no caso do IP do usuário
+  - WOEID -> Informar em ```const woeidCode = ;``` ex ```const woeidCode = 459678;``` para consultar pelo codigo da cidade, para encontrar o código correspondente a cidade usar [hgbrasil tools](https://console.hgbrasil.com/documentation/weather/tools), essa é a opção mais recomendada, pois evita problemas com grafia na hora de escrever o nome da cidade, ou com uso de proxy/vpn no caso do IP do usuário
 
 
   - CIDADE -> Informar em ```const city = "";``` ex ```const city = "salvador";``` para consultar por cidade
 
-  - IP -> Para pegar a geolocaliação pelo IP do usuáio, não é necessario infomar nada apenas infomar em ```option``` que essa forma deverá ser utilizada
+  - IP -> Para pegar a geolocaliação pelo IP do usuáio, não é necessario informar nada apenas setar em ```option``` a opção correspondente
 
  - 3º -> Informar a opção do item 2 acima que devera ser considerado para pegar a localização do usuário em ```const option = ;``` ex ```const option = 1;```
 
@@ -41,7 +41,7 @@
 
 #### Como incorporar as informações recebidas da API
 
- - Os dados foram associados ao seletor class, sendo assim você pode usar qualquer elemento/TAG HTML que desejar, bastando infomar a classe correspondente ao dado que quer incorporar, com exeção do uso das imagens, que nesse caso deve ser utilizado a TAG HTML IMG.
+ - Os dados foram associados ao seletor class, sendo assim você pode usar qualquer elemento/TAG HTML que desejar, bastando informar a classe correspondente ao dado que quer incorporar, com exceção do uso das imagens, que nesse caso deve ser utilizado a TAG HTML IMG.
 
  Ex.
 
@@ -49,7 +49,7 @@
  ```<span class="temp"></span>``` OU 
  ```<p class="temp"></p>``` OU 
  ```<h2 class="temp"></h2>```
-vai retonar o mesmo resultado, o valor da temperatura do dia
+vai retornar o mesmo resultado, o valor da temperatura do dia
 
 Para utilizar as imagens correspondente ao clima, basta utilizar a tag IMG com a classe correspondente, ex ```<img class="condition_slug">```
 
