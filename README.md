@@ -1,4 +1,4 @@
-# FRAMEWORK em javascript para consumo da API de dados climaticos da [hgbrasil](https://hgbrasil.com/)
+#  script javascript para consumo da API de dados climaticos da [hgbrasil](https://hgbrasil.com/)
 
 ### DISCLAMER 
 - O intuito desse projeto é meramente educacional, visando desenvolver minhas habilidades, e auxiliar nos estudos de quem possa interessar.
