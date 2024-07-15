@@ -78,7 +78,7 @@ Para utilizar as imagens correspondente ao clima, basta utilizar a tag IMG com a
 |hoje|Fuso horário|timezone|Texto|fuso horário da cidade|UTC -03:00
 
 É possivel pegar dados futuros de D+N até nove dias, ou seja, D1 são os dados de amanha, D2 são os dados de depois de amanha, e assim por diante
-* Na classe substituir o day+n por day0, day1, day2 ... day9 de acordo com o dia que quer retornar os dados ex ```class=day1_date``` => day0 = hoje
+* Na classe substituir o day+n por day0, day1, day2 ... day9 de acordo com o dia que quer retornar os dados ex ```class=day1_date```  **day0 = hoje
 
 |Dia|Nome|Classe|Tipo|Descrição|Exemplo|
 |---|----|------|----|-----|-------|
